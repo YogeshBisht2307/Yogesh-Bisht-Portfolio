@@ -1,0 +1,13 @@
+
+.topSkill_container{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:60vw;
+    margin:auto;
+}
+@media(max-width:950px){
+    .topSkill_container{
+        width:90vw;
+    }
+}
