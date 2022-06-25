@@ -236,5 +236,12 @@
     .contact_button{
         width:40%;
     }
+    .input_wrapper input[type="text"]{
+        padding-left: 4rem;
+    }
+
+    .input_wrapper input[type="text"]:focus{
+        padding-left: 1rem;
+    }
     
 }

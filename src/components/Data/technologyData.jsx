@@ -2,14 +2,11 @@
 import clang from '../images/language/c-original.svg';
 import cplusLang from '../images/language/cplusplus-original.svg';
 import pythonLang from '../images/language/python-original.svg';
-import javaLang from '../images/language/java-original.svg';
-import phpLang from '../images/language/php-original.svg';
 import javascriptLang from '../images/language/java-script.png';
 
 //frontend images Import
 import htmlEnd from '../images/frontend/html5-original-wordmark.svg';
 import cssEnd from '../images/frontend/css3-original-wordmark.svg';
-import bootstrapEnd from '../images/frontend/bootstrap-plain-wordmark.svg';
 import chartjsEnd from '../images/frontend/chart-js.svg';
 import reactEnd from '../images/frontend/react-original-wordmark.svg';
 import webpackEnd from '../images/frontend/webpack-original-wordmark.svg';
@@ -29,7 +26,6 @@ import linuxSvg from '../images/others/linux-original.svg';
 import herokuSvg from '../images/others/heroku-icon.svg';
 
 //software images import
-import adobeSvg from '../images/software/adobe-xd.svg';
 import figmaSvg from '../images/software/figma-icon.svg';
 import postmenSvg from '../images/software/getpostman-icon.svg';
 export const langData = [
@@ -46,14 +42,6 @@ export const langData = [
         "name":"python",
     },
     {
-        "img":javaLang,
-        "name":"Java",
-    },
-    {
-        "img":phpLang,
-        "name":"PHP",
-    },
-    {
         "img":javascriptLang,
         "name":"Java Script",
     },  
@@ -68,21 +56,17 @@ export const frontEndData = [
         "name":"CSS",
     },
     {
-        "img":bootstrapEnd,
-        "name":"Bootstrap",
-    },
-    {
-        "img":chartjsEnd,
-        "name":"ChartJS",
+        "img":webpackEnd,
+        "name":"Webpack",
     },
     {
         "img":reactEnd,
         "name":"ReactJs",
     },
     {
-        "img":webpackEnd,
-        "name":"Webpack",
-    },  
+        "img":chartjsEnd,
+        "name":"ChartJS",
+    }  
 ]
 
 export const backendData = [
@@ -125,10 +109,6 @@ export const otherData = [
     },  
 ]
 export const softwareData = [
-    {
-        "img":adobeSvg,
-        "name":"AdobeXD",
-    }, 
     {
         "img":figmaSvg,
         "name":"Figma",

@@ -115,6 +115,7 @@
 .project_detail{
     margin-bottom:1.5rem;
     padding:0.5rem;
+    z-index: 1;
 }
 .project_bottombar a,
 .project_detail{
@@ -154,6 +155,9 @@
     }
     .project_column{
         width:100%;
+    }
+    .project_column img{
+        padding-bottom: 1rem;
     }
 }
 

@@ -63,7 +63,7 @@
 }
 @media screen and (max-width:746px){
     .service_block{
-        width:95vw;
+        width:100vw;
         flex-direction:column;
         margin:0;
     }
